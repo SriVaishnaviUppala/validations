@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js:)</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles/styles1.css">
+</head>
+<body>
+<h1 id="c1" >FORM VALIDATIONS</h1>
+<form action=""  method="post" class="pst" >
+<label class="frm">User Name&emsp;&nbsp;:</label>
+&emsp;<input type="text" name="uname" id="uname" class="sty" onkeypress="f1()" ><br><br>
+<span class="frm" id="s1" style="color:red; display:none;">Enter Your User Name Min Char 6 Max 12</span><br><br>
+<label class="frm">Email&emsp;&emsp;&emsp;&nbsp;:</label>
+ &emsp;&nbsp;<input type="email" name="email" id="email" class="sty" onkeypress="f1()"><br><br>
+ <span class="frm" id="s2" style="color:red; display:none;">Enter Your Email Min 12 char!!!</span><br><br>
+<label class="frm">Gender&emsp;&emsp;&emsp;:</label>
+&emsp;<input type="radio" name="gender" id="male">Male
+<input type="radio" name="gender" id="female">Female<br><br>
+<span class="frm" id="s3" style="color:red; display:none;">Enter Your Gender!!!</span><br><br>
+<label class="frm">Phone No&emsp;&emsp;:</label>
+ &emsp;&nbsp;<input type="number" name="phno" id="phno" class="sty" onkeypress="f1()"><br><br>
+ <span class="frm" id="s4" style="color:red; display:none;">The Phone Num Len must should be 10 Numbers</span><br><br>
+<label class="frm">Password&emsp;&emsp;&nbsp;:</label>
+&emsp;<input type="Password" name="pswd" id="pswd" class="sty" onkeypress="f1()"><br><br>
+<span class="frm" id="s5" style="color:red; display:none;">Password must should be between 6 to 10 characters</span><br><br>
+<label class="frm">Re-Password&emsp;:</label>
+&nbsp;&nbsp;&nbsp;<input type="password" name="rpswd" id="rpswd" class="sty" onkeypress="f1()"><br><br><br>
+<span class="frm" id="s6" style="color:red; display:none;">password and re-password is missmatch!</span><br><br>
+<input type="submit" id="butn" onclick="return myfun()">
+</form>
+<script src="js/app1.js">
+
+</script>
+</body>
+</html>
